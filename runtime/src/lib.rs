@@ -253,11 +253,11 @@ impl pallet_balances::Config for Runtime {
 }
 
 parameter_types! {
-	pub const AssetDepositBase: Balance;
-	pub const AssetDepositPerZombie: Balance;
-	pub const StringLimit: u32;
-	pub const MetadataDepositBase: Balance;
-	pub const MetadataDepositPerByte: Balance;
+	pub const AssetDepositBase: Balance = 100;
+	pub const AssetDepositPerZombie: Balance = 1;
+	pub const StringLimit: u32 = 50;
+	pub const MetadataDepositBase: Balance = 10;
+	pub const MetadataDepositPerByte: Balance = 1;
 }
 
 impl pallet_assets::Config for Runtime {
