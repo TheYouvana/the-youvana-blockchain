@@ -16,7 +16,11 @@ test:
 
 .PHONY: run
 run:
-	cargo run --release -- --dev --tmp
+	./target/release/node-template --dev
+
+.PHONY: purge	
+purge: 
+	./target/release/node-template purge-chain --dev
 
 .PHONY: compile
 build:
