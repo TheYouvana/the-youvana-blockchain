@@ -118,7 +118,7 @@ pub const VERSION: RuntimeVersion = RuntimeVersion {
 /// up by `pallet_aura` to implement `fn slot_duration()`.
 ///
 /// Change this to adjust the block time.
-pub const MILLISECS_PER_BLOCK: u64 = 6000;
+pub const MILLISECS_PER_BLOCK: u64 = 3000;
 
 pub const SLOT_DURATION: u64 = MILLISECS_PER_BLOCK;
 
@@ -253,10 +253,10 @@ impl pallet_balances::Config for Runtime {
 }
 
 parameter_types! {
-	pub const AssetDepositBase: Balance = 100;
+	pub const AssetDepositBase: Balance = 1;
 	pub const AssetDepositPerZombie: Balance = 1;
 	pub const StringLimit: u32 = 50;
-	pub const MetadataDepositBase: Balance = 10;
+	pub const MetadataDepositBase: Balance = 1;
 	pub const MetadataDepositPerByte: Balance = 1;
 }
 
