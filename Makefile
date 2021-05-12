@@ -23,5 +23,5 @@ purge:
 	./target/release/node-template purge-chain --dev
 
 .PHONY: compile
-build:
+compile:
 	cargo build --release
