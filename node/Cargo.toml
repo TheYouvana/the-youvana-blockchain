@@ -1,12 +1,12 @@
 [package]
-authors = ['Substrate DevHub <https://github.com/substrate-developer-hub>']
+authors = ['The-Youth']
 build = 'build.rs'
 description = 'A fresh FRAME-based Substrate node, ready for hacking.'
 edition = '2018'
 homepage = 'https://substrate.dev'
-license = 'Unlicense'
-name = 'node-template'
-repository = 'https://github.com/substrate-developer-hub/substrate-node-template/'
+license = 'MIT'
+name = 'the-youth-node'
+repository = 'https://github.com/The-Youth/youth-rustic-vision'
 version = '3.0.0'
 
 [[bin]]
