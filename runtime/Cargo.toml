@@ -56,7 +56,6 @@ runtime-benchmarks = [
   'hex-literal',
   'pallet-balances/runtime-benchmarks',
   'pallet-assets/runtime-benchmarks',
-  'pallet-template/runtime-benchmarks',
   'pallet-timestamp/runtime-benchmarks',
   'sp-runtime/runtime-benchmarks',
 ]
@@ -72,7 +71,6 @@ std = [
   'pallet-grandpa/std',
   'pallet-randomness-collective-flip/std',
   'pallet-sudo/std',
-  'pallet-template/std',
   'pallet-timestamp/std',
   'pallet-transaction-payment-rpc-runtime-api/std',
   'pallet-transaction-payment/std',
