@@ -1,5 +1,5 @@
 .PHONY: install
-install: 
+install:
 	curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 .PHONY: init
@@ -16,11 +16,11 @@ test:
 
 .PHONY: run
 run:
-	./target/release/node-template --dev
+	./target/release/the-youvana-node --dev
 
-.PHONY: purge	
-purge: 
-	./target/release/node-template purge-chain --dev
+.PHONY: purge
+purge:
+	./target/release/the-youvana-node purge-chain --dev
 
 .PHONY: compile
 compile:
